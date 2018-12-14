@@ -1,0 +1,21 @@
+{
+  "name": "webpack-play",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack --watch"
+  },
+  "devDependencies": {
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "css-loader": "^2.0.1",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1"
+  }
+}
